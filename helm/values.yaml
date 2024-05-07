@@ -4,13 +4,17 @@
 
 replicaCount: 1
 image:
-  repository: nickpimankov
+  registry: "ghcr.io"
+  repository: nickpimankov/kbot
+  pullPolicy: IfNotPresent
   tag: "v1.0.0-4d79953"
   arch: amd64
   os: linux
+  parameter: go
 secret:
   name: "kbot"
   env: "TELE_TOKEN"
   key: "token"
+  value: "6915295090:AAF_w60qou-V8YBOd0zKz9NM4s86_75tO4I"
 securityContext:
   privileged: true

@@ -4,9 +4,7 @@
 
 replicaCount: 1
 image:
-  registry: "ghcr.io"
-  repository: nickpimankov/kbot
-  pullPolicy: IfNotPresent
+  repository: nickpimankov
   tag: "v1.0.0-4d79953"
   arch: amd64
   os: linux

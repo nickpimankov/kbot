@@ -5,7 +5,7 @@
 replicaCount: 1
 image:
   repository: nickpimankov
-  tag: "v1.0.0-4d79953"
+  tag: "v1.0.0-a42d5b3"
   arch: amd64
   os: linux
   parameter: go

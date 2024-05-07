@@ -5,7 +5,7 @@
 replicaCount: 1
 image:
   repository: nickpimankov/kbot
-  tag: "v1.0.0"
+  tag: "v1.0.0-b3038ef"
   arch: amd64
   os: linux
   parameter: go

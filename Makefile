@@ -10,7 +10,7 @@ else
 endif
 
 APP=$(shell basename $(shell git remote get-url origin) | cut -d"." -f1)
-REGESTRY := nickpimankov
+REGESTRY := ghcr.io/nickpimankov
 VERSION=$(shell git describe --tags --abbrev=0 --always)-$(shell git rev-parse --short HEAD)
 TARGETARCH := amd64 
 TARGETOS=${detected_OS}

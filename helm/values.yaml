@@ -4,7 +4,7 @@
 
 replicaCount: 1
 image:
-  repository: nickpimankov
+  repository: nickpimankov/kbot
   tag: "v1.0.0-4d79953"
   arch: amd64
   os: linux

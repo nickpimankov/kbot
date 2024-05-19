@@ -5,7 +5,7 @@
 replicaCount: 1
 image:
   repository: nickpimankov
-  tag: "v1.2.0-664d71c"
+  tag: "v1.0.0-0873125"
   arch: amd64
 secret:
   name: "kbot"
